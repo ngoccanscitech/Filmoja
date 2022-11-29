@@ -4,7 +4,7 @@
 }
 
 .text-truyen {
-    color: var(--text-primary);
+    color: var(--text-primary)!important;
 }
 
 body {
@@ -248,7 +248,14 @@ p.list-genre {
     margin-top: -72px;
     z-index: 2;
     position: absolute;
-    left: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.fix-temp-height {
+    min-height: 630px;
 }
 
 @media (max-width: 991px) {
@@ -291,7 +298,7 @@ p.list-genre {
 
 /* Bảng xếp hạng */
 .bang-xep-hang {
-    margin-top: 570px;
+    margin-top: 608px;
 }
 
 .rank__item {
@@ -462,6 +469,112 @@ p.list-genre {
     }    
 }
 
+/* Đánh giá truyện chữ */
+.recommend-background-gray {
+    background: #D9D9D9;
+}
+
+/* Banner truyện chữ */
+.banner {
+    width: auto;
+    height: 112px;
+    background: url('../img/banner-truyentranh.png') top center / contain no-repeat;
+}
+
+/* Truyện tranh */
+.filmoja-heading h2 {
+    padding-left: 0;
+}
+
+.filmoja-heading h2:before {
+    all: initial;
+}
+.filmoja-heading h2:after {
+    all: initial;
+}
+
+.background-yellow {
+    background: #E9C873;
+}
+
+.background-pink-little {
+    background: #FFF9D9;
+}
+
+.background-pink {
+    background: #FE90CC;
+}
+
+.top-movie-slider .owl-nav.disabled>button {
+    color: #000;
+    border: initial;
+}
+
+.top-movie-slider .owl-nav.disabled>button:first-child {
+    color: #969696;
+}
+
+.top-movie-slider .owl-nav.disabled {
+    top: -27px;
+}
+
+.top-movie-details {
+    text-align: center;
+}
+
+.single-top-movie .top-movie-wrap:hover .top-movie-img:before {
+    all: initial;
+}
+
+
+.single-top-movie .top-movie-img {
+    border-radius: 8px;
+}
+
+.top-movie-details h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: initial;
+}
+
+#truyen-moi-hoan-thanh .top-movie-slider .owl-nav.disabled>button:last-child {
+    color: #fff;
+}
+
+
+@media (max-width: 991px) {
+    .top-movie-slider .owl-nav {
+        top: -27px;
+    }
+    .top-movie-slider .owl-nav>button {
+    color: #000!important;
+    border: initial!important;
+    }
+    .top-movie-slider .owl-nav>button:first-child {
+        color: #969696!important;
+    }
+}
+
+/* Footer */
+
+.footer-area {
+    height: 320px;
+    background: url('../img/footer-background.png') top center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
 
 
 

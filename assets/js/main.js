@@ -97,7 +97,7 @@ JS INDEX
 			touchDrag: true,
 			mouseDrag: true,
 			nav: true,
-			navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
+			navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
 			dots: false,
 			autoplayTimeout: 5000,
 			autoplaySpeed: 1200,
@@ -119,7 +119,7 @@ JS INDEX
 					items: 4
 				},
 				1200: {
-					items: 5
+					items: 6
 				}
 			}
 		});
