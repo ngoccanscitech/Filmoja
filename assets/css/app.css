@@ -1,0 +1,470 @@
+:root {
+    --can-primary: #D79C05;
+    --text-primary: #D79C05;
+}
+
+.text-truyen {
+    color: var(--text-primary);
+}
+
+body {
+    font-family: 'Roboto', sans-serif!important;
+    color: #000;
+    letter-spacing: initial;
+}
+
+p {
+	color: #000000;
+	margin: 0
+}
+
+a {
+    color: #000000;
+}
+
+.filmoja-btn {
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: var(--can-primary);
+    background-image: initial;
+}
+
+.single-truyen__button {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+/* Start Header */
+.mainmenu nav>ul>li:hover>a, .submenu ul li:hover  {
+    color: #fff;
+    background: red;
+}
+
+.submenu ul li:hover a {
+    color: #fff!important;
+}
+
+.mainmenu nav>ul>li:hover>a:before {
+    all: initial;
+}
+
+.mainmenu nav>ul>li:hover>a:after {
+    all: initial;
+}
+
+.dropdown-toggle::after {
+    all: initial;
+}
+
+.mainmenu nav>ul>li.dropdown:hover>a {
+    color: #fff!important;
+    background: var(--can-primary);
+}
+
+.mainmenu nav>ul>li:hover>ul li:hover>a {
+    color: var(--can-primary);
+}
+
+.mainmenu nav>ul>li.dropdown {
+    min-width: 130px;
+}
+.mainmenu ul {
+    text-align: center;
+}
+.mainmenu ul li ul {
+    text-align: center;
+}
+
+.mainmenu nav>ul>li:hover>a .mainmenu__icon {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(338deg) brightness(105%) contrast(105%);;
+}
+
+.site-logo {
+    margin: 10px 0;
+}
+
+.submenu ul li {
+    display: inline-block;
+}
+
+.submenu ul li a {
+   line-height: 85.994px;
+   color: #000;
+}
+
+.header-main-search form button {
+    right: initial;
+    left: 5px;
+}
+
+.header-main-search form input {
+    padding: 5px 50px 5px 29px;
+}
+
+.slider-recommend-left .browse-option-box {
+    padding-bottom: 4px;
+}
+
+@media (max-width: 769px) {
+    .submenu {
+        display: none;
+    }
+
+    .header-main-search form input {
+        padding: 5px 50px 5px 72px;
+    }
+    .header-main-search form button {
+        right: initial;
+        left: initial;
+    }
+}
+
+/* End Header */
+
+/* Start Slider */
+.slide-item-5, .slide-item-2, .slide-item-3 {
+    background: url(../img/Slider-Truyen-Chu.jpg);
+    background-size: cover;
+}
+
+.filmoja-slide:before {
+	all: initial;
+}
+
+.filmoja-slide:after {
+	all: initial;
+}
+
+/* End Slider */
+
+/* Start Recommend Slider */
+.single-movie-list {
+    margin-top: 0;
+    align-items: initial;
+    padding: 13px;
+    border-radius: 16px;
+}
+
+.single-movie-list-left {
+    margin-right: 13px;
+}
+
+p.list-genre {
+    font-size: 11px;
+    line-height: 12px;
+    color: initial;
+}
+
+.movie-details-thumbs ul li {
+    font-size: 12px;
+    margin-right: 0!important;
+}
+
+.del-min-li-first ul li {
+    margin-right: 5px!important;
+}
+
+.single-movie-list-right>.movie-details-thumbs ul li:first-child {
+    min-width: 101px;
+}
+
+.movie-status {
+    color: var(--can-primary);
+}
+
+.total-item-show p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+    letter-spacing: 0.0015em;
+    color: #000000;
+}
+
+.browse-option-box {
+    padding-left: 0;
+    background: initial;
+    padding-top: 0;
+}
+.total-item-show {
+    margin-right: 16px;
+    flex: initial;
+}
+
+.slider-recommend-right, .slider-recommend-left {
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #DADADA;
+    border-radius: 16px;
+}
+
+.recommend-background-white {
+    background: #fff;
+}
+
+.recommend-background-red {
+    background:#D70505;
+}
+
+.flex-row-two-movie {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.slider-recommend-sidebar-head {
+    display: flex;
+    background-color: var(--can-primary);
+    justify-content: center;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 16px 16px 0 0;
+}
+
+.single-truyen {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.single-truyen__head {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.border-single-truyen {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.movie-details-thumbs {
+    margin-top: 0;
+}
+
+.slider-recommend-info {
+    margin-top: -72px;
+    z-index: 2;
+    position: absolute;
+    left: 3%;
+}
+
+@media (max-width: 991px) {
+    .single-movie-list-right {
+        padding: initial;
+    }
+    .margin-top {
+        margin-top: 0;
+    }
+    .movie-list-box, .movie-grid-box, .browse-option-box {
+        width: initial;
+    }
+    .single-movie-list {
+        align-items: center;
+    }
+    .slide-item-5, .slide-item-2, .slide-item-3 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        /* height: auto; */
+    }
+}
+
+@media (max-width: 767px) {
+    .single-movie-list {
+        align-items: center;
+    }
+    .single-movie-list-right {
+        padding: initial;
+    }
+    .single-movie-list-right>.movie-details-thumbs li {
+        margin-right: 0;
+    }
+    .flex-row-two-movie {
+        flex-wrap: wrap;
+    }
+    .single-movie-list {
+        flex: 0 0 100%;
+    }
+}
+
+/* Bảng xếp hạng */
+.bang-xep-hang {
+    margin-top: 570px;
+}
+
+.rank__item {
+    border-radius: 16px; 
+    border: 1px solid #D79C05;
+}
+
+.single-sidebar-widget {
+    margin-bottom: 0;
+    padding: 20px;
+    background: initial;
+    border-radius: 5px;
+}
+
+.sidebar-widget-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+    letter-spacing: 0.0015em;
+    color: #D79C05;
+}
+
+.sidebar-widget-title::after {
+    all: initial;
+}
+
+.del-min-li-first ul li:first-child {
+    min-width: initial!important;
+}
+
+.single-truyen__order {
+    min-width: 32px;
+}
+
+.pl-11 {
+    padding-left: 11px;
+}
+
+.sidebar-widget-title {
+    margin-bottom: 4px;
+}
+
+.rank__item {
+    position: relative;
+}
+
+.rank__item-icon {
+    position: absolute;
+    top: -6%;
+    right: 6%;
+}
+
+.rank__item-top {
+    color: var(--can-primary);
+}
+
+@media (max-width: 991px) {
+    .bang-xep-hang {
+        margin-top: 1224px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bang-xep-hang {
+        margin-top: 2100px;
+    }
+}
+
+/* Truyện đọc nhiều, truyện yêu thích, truyện lưu trữ */
+
+.recommend-background-primary {
+    background: var(--can-primary);
+}
+
+.single-movie-col-4 {
+   align-items: center;
+   padding: 3px;
+   border-radius: 8px;
+}
+
+.single-movie-col-4 .single-movie-list-left {
+    margin-right: 3px;
+    flex: 0 0 20%;
+}
+
+.single-movie-col-4 h3{
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+.single-movie-col-4 .single-movie-list-right ul {
+    margin: 0;
+    display: flex;
+}
+
+.single-movie-col-4 .single-movie-list-right>.movie-details-thumbs ul li:first-child {
+    min-width: initial;
+}
+
+.single-movie-col-4 .movie-details-thumbs ul li {
+    font-size: 8px;
+    flex: 1;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+/* Truyện mới đăng */
+.recommend-background-pink {
+    background: #FE90CC;
+}
+
+.fz-body {
+    font-size: .9375rem;
+}
+
+.text-overflow-1-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: #fff;
+}
+
+.w-1107 {
+    min-width: 1107px;
+}
+
+.w-32 {
+    width: 32% !important;
+}
+
+@media (max-width: 991px) {
+    .w-1107 {
+        min-width: initial;
+    }
+}
+
+/* Truyện mới hoàn thành */
+.truyen-moi-hoan-thanh .single-movie-list-right>.movie-details-thumbs ul li:first-child {
+    min-width: initial;
+}
+
+@media (max-width: 991px) {
+    .flex-row-three-movie-ipad {
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+}
+
+
+
+
+
+
+

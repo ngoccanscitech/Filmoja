@@ -45,9 +45,10 @@ JS INDEX
 			dots: false,
 			autoplayTimeout: 7000,
 			autoplaySpeed: 2000,
-			autoplay: true,
+			autoplay: false,
+			autoHeight: true,
 			loop: true,
-			navText: ["<img src='assets/img/prev-1.png'>", "<img src='assets/img/next-1.png'>"],
+			navText: ["<img src='assets/img/figma-prev-1.png'>", "<img src='assets/img/figma-next-1.png'>"],
 			mouseDrag: true,
 			touchDrag: true,
 			responsive: {
