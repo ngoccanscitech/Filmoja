@@ -274,7 +274,9 @@ p.list-genre {
     .slide-item-5, .slide-item-2, .slide-item-3 {
         background-size: contain;
         background-repeat: no-repeat;
-        /* height: auto; */
+    }
+    .slider-recommend-info {
+        margin-top: -162px;
     }
 }
 
@@ -293,6 +295,9 @@ p.list-genre {
     }
     .single-movie-list {
         flex: 0 0 100%;
+    }
+    .slider-recommend-info {
+        margin-top: -212px;
     }
 }
 
@@ -358,13 +363,13 @@ p.list-genre {
 
 @media (max-width: 991px) {
     .bang-xep-hang {
-        margin-top: 1224px;
+        margin-top: 1005px;
     }
 }
 
 @media (max-width: 767px) {
     .bang-xep-hang {
-        margin-top: 2100px;
+        margin-top: 1634px;
     }
 }
 
@@ -454,6 +459,12 @@ p.list-genre {
 @media (max-width: 991px) {
     .w-1107 {
         min-width: initial;
+    }
+}
+
+@media (max-width: 767px) {
+    .truyen-moi-dang {
+        display: none;
     }
 }
 
@@ -607,6 +618,15 @@ p.list-genre {
     }
     .top-movie-slider .owl-nav>button:first-child {
         color: #969696!important;
+    }
+    .banner {
+        height: 61px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner {
+        height: 34px;
     }
 }
 
