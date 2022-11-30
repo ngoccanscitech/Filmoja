@@ -540,10 +540,8 @@ p.list-genre {
 }
 
 /* Banner truyện chữ */
-.banner {
-    width: auto;
-    height: 112px;
-    background: url('../img/banner-truyentranh.png') top center / contain no-repeat;
+.banner img {
+    max-width: 100%;
 }
 
 /* Truyện tranh */
@@ -619,21 +617,16 @@ p.list-genre {
     .top-movie-slider .owl-nav>button:first-child {
         color: #969696!important;
     }
-    .banner {
-        height: 61px;
-    }
+   
 }
 
 @media (max-width: 767px) {
-    .banner {
-        height: 34px;
-    }
+    
 }
 
 /* Footer */
 
 .footer-area {
-    height: 320px;
     background: url('../img/footer-background.png') top center / cover no-repeat;
     display: flex;
     flex-direction: column;
