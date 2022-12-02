@@ -195,7 +195,6 @@ p.list-genre {
 }
 
 .slider-recommend-right, .slider-recommend-left {
-    margin-top: 10px;
     background: #fff;
     border: 1px solid #DADADA;
     border-radius: 16px;
@@ -254,8 +253,9 @@ p.list-genre {
     right: 0;
 }
 
-.fix-temp-height {
-    min-height: 630px;
+.gap-padding-bottom .flex-row-two-movie {
+    padding-bottom: 15px;
+    gap: 15px;
 }
 
 @media (max-width: 991px) {
@@ -267,6 +267,12 @@ p.list-genre {
     }
     .movie-list-box, .movie-grid-box, .browse-option-box {
         width: initial;
+    }
+    #align-between-ipad .movie-grid-box {
+        width: 75%;
+    } 
+    #align-between-ipad .flex-row-two-movie {
+        justify-content: space-between;
     }
     .single-movie-list {
         align-items: center;
@@ -299,6 +305,9 @@ p.list-genre {
     .slider-recommend-info {
         margin-top: -212px;
     }
+    #align-between-ipad .movie-grid-box {
+        width: initial;
+    } 
 }
 
 /* Bảng xếp hạng */
@@ -363,13 +372,13 @@ p.list-genre {
 
 @media (max-width: 991px) {
     .bang-xep-hang {
-        margin-top: 1005px;
+        margin-top: 1178px;
     }
 }
 
 @media (max-width: 767px) {
     .bang-xep-hang {
-        margin-top: 1634px;
+        margin-top: 1836px;
     }
 }
 
@@ -471,6 +480,10 @@ p.list-genre {
 /* Truyện mới hoàn thành */
 .truyen-moi-hoan-thanh .single-movie-list-right>.movie-details-thumbs ul li:first-child {
     min-width: initial;
+}
+
+.truyen-moi-hoan-thanh .flex-row-two-movie {
+    gap: 16px;
 }
 
 @media (max-width: 991px) {
@@ -642,9 +655,5 @@ p.list-genre {
     display: inline-block;
     margin-right: 32px;
 }
-
-
-
-
 
 
