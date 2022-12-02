@@ -462,12 +462,24 @@ p.list-genre {
 }
 
 .w-32 {
-    width: 32% !important;
+    width: 35% !important;
 }
+
+.truyen-moi-dang .slider-recommend-right {
+    border: initial;
+}
+
+.truyen-moi-dang .table td {
+    padding: 7px 25px 7px 25px;
+}
+
 
 @media (max-width: 991px) {
     .w-1107 {
         min-width: initial;
+    }
+    .truyen-moi-dang tr td:first-child {
+        display: none;
     }
 }
 
