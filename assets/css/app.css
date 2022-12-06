@@ -315,6 +315,10 @@ p.list-genre {
     margin-top: 608px;
 }
 
+.pl-20 {
+    padding-left: 20px;
+}
+
 .rank__item {
     border-radius: 16px; 
     border: 1px solid #D79C05;
